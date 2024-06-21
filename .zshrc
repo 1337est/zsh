@@ -29,8 +29,6 @@ alias llt='lsa --tree --depth=2' # long lt: tree with hidden minus . && ..
 alias cat='bat' # better cat
 alias open='xdg-open'
 alias history='history 1' # show all history
-alias gitsetup="~/Desktop/Scripts/Shell/git_setup.sh"
-alias genpaclist="~/Desktop/Scripts/Shell/gen_pac_list.sh"
 
 # Basic auto/tab complete:
 autoload -U compinit

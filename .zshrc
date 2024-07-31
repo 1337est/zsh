@@ -29,6 +29,7 @@ alias llt='lsa --tree --depth=2' # long lt: tree with hidden minus . && ..
 alias cat='bat' # better cat
 alias open='xdg-open'
 alias history='history 1' # show all history
+alias lg='lazygit' # git but better?
 
 # Basic auto/tab complete:
 autoload -U compinit

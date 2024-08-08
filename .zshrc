@@ -52,10 +52,10 @@ export KEYTIMEOUT=1
 # 2nd level (new line) is the space where you type commands
 function set_prompt_color_vi_mode {
     if [[ $KEYMAP == vicmd ]]; then
-        PROMPT='%F{red}[%F{blue}%1~%F{red}] ${vcs_info_msg_0_}
+        PROMPT='%F{blue}[%F{yellow}%~%F{blue}] ${vcs_info_msg_0_}
 %F{yellow}V%{$reset_color%}%f '
     else
-        PROMPT='%F{red}[%F{blue}%~%F{red}] ${vcs_info_msg_0_}
+        PROMPT='%F{blue}[%F{green}%~%F{blue}] ${vcs_info_msg_0_}
 %F{green}$%{$reset_color%}%f '
     fi
 }
